@@ -106,7 +106,7 @@ To Start Back End
 | `id`      | Get user by Id user |
 
 ## ERD Diagaram
-![ERD](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/erd/erd.png?token=GHSAT0AAAAAACMNBSDCGPF7EVEYNUP4KZAKZM2HQZA)
+![ERD](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/diagram/erd.png?token=GHSAT0AAAAAACMNBSDDXSJG5ZKYYW5AZ5B2ZM2KAUA)
 
 ## Class Diagaram
 ![ERD](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/diagram/class.png?token=GHSAT0AAAAAACMNBSDDRPGIBPH6TO54KEGQZM2J7QQ)
