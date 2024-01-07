@@ -121,18 +121,19 @@ To Start Back End
 |  4. Check Dashboard Page Update Status Book | Mengecek apakah status buku tersebut berhasil dikembalikan dan dapat di pinjam lagi |
 |  5. Check History Page  | Menampilkan semua list peminjam buku, nama buku dan tanggal pinjam dan tanggal wajib mengembalikan |
 |  6. Check Modal Borrow Book Home Page | Menampilkan nama buku, dan deskripsi buku dan siapa yang meminjam buku  |
-|  6. Check Modal Borrow Book Dashboard Page | Mengecek apakah satus buku sudah dikembalikan dan dapat di pinjam lagi |
+|  7. Check Modal Borrow Book Dashboard Page | Mengecek apakah satus buku sudah dikembalikan dan dapat di pinjam lagi |
 
-1. ![Home Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/home_page.png?token=GHSAT0AAAAAACMNBSDCTZ6MXKUPFS5DAJ5GZM2GTYQ)
+1. ![Home Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/home_page.png?token=GHSAT0AAAAAACMNBSDCQDB6K4K6OEJOUY72ZM2KBUA)
 
-2. ![Home Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/list_book_borrow.png?token=GHSAT0AAAAAACMNBSDDBX3P2SBG4NQIDYEKZM2HE3Q)
+2. ![Home Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/list_book_borrow.png?token=GHSAT0AAAAAACMNBSDDHGJBT6NHZXLNUYC2ZM2KCHQ)
 
-3. ![Dashboard Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/dashboard_page.png?token=GHSAT0AAAAAACMNBSDDSFARKRIKFG62CTSOZM2HF6Q)
+3. ![Dashboard Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/dashboard_page.png?token=GHSAT0AAAAAACMNBSDCPDIBFTJVBBFYIRQWZM2KCUQ)
 
-4. ![Dashboard Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/dashboard_borrow.png?token=GHSAT0AAAAAACMNBSDDO7G63ZJNNZBHUHYKZM2HGHQ)
+4. ![Dashboard Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/dashboard_borrow.png?token=GHSAT0AAAAAACMNBSDCNYJLBNWDDSNUP67QZM2KDFQ)
 
-5. ![History Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/history.png?token=GHSAT0AAAAAACMNBSDDDZ63UFOALFM3QJCOZM2HGZQ)
+5. ![History Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/history.png?token=GHSAT0AAAAAACMNBSDDI5P662YBCYHNIXU2ZM2KDQA)
 
-6. ![Modal Home Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/modal_dashboard_page.png?token=GHSAT0AAAAAACMNBSDD2OX3USAIULLOQLFYZM2HIXQ)
+6. ![Modal Home Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/modal_home_page.png?token=GHSAT0AAAAAACMNBSDDZFYHC6TH3EVAAEBWZM2KD5Q)
 
+7. ![Modal Dashboard Page](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/unit-testing/modal_dashboard_page.png?token=GHSAT0AAAAAACMNBSDDDH6W467WGJ2FIH6GZM2KEKA)
 
