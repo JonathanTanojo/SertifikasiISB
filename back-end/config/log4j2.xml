@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+    <Properties>
+        <Property name="log-path">logs/sertifikasi</Property>
+    </Properties>
+    <Appenders>
+        <RollingFile name="RollingFileDebug" immediateFlush="false"  fileName="${log-path}-debug.log" filePattern="${log-path}-debug-%i.log.gz" >
+            <EcsLayout serviceName="api-sertifikasi" />
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"  />
+            </Policies>
+            <DefaultRolloverStrategy max="10"  />
+        </RollingFile>
+        <RollingFile name="RollingFileInfo" immediateFlush="false"  fileName="${log-path}-info.log" filePattern="${log-path}-info-%i.log.gz"  >
+            <EcsLayout serviceName="api-sertifikasi" />
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"  />
+            </Policies>
+            <DefaultRolloverStrategy max="10"  />
+        </RollingFile>
+        <RollingFile name="RollingFileError" immediateFlush="false"  fileName="${log-path}-error.log" filePattern="${log-path}-error-%i.log.gz" >
+            <EcsLayout serviceName="api-sertifikasi" />
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"  />
+            </Policies>
+            <DefaultRolloverStrategy max="10"  />
+        </RollingFile>
+        <RollingFile name="SpringFile" immediateFlush="false" fileName="${log-path}-spring.log" filePattern="${log-path}-spring-%i.log.gz" >
+            <EcsLayout serviceName="api-sertifikasi" />
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"  />
+            </Policies>
+            <DefaultRolloverStrategy max="10"  />
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+
+        <AsyncLogger name="be.sertifikasi.isb" level="debug" includeLocation="true">
+            <appender-ref ref="RollingFileInfo" level="info" />
+            <appender-ref ref="RollingFileError" level="error" />
+            <appender-ref ref="RollingFileDebug" level="debug" />
+            <appender-ref ref="Console" level="debug" />
+        </AsyncLogger>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #FFFFFF;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation-bar .nav-text {
+  font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.loader {
+  display: flex;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.dashboard-container {
+  padding: 0;
+}
+
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.catalog {
+  margin-top: 2vh;
+}
+
+.catalog-card {
+  margin: 20px 10px
+}
+.catalog-card .card img {
+  max-width: 150px;
+}
+.card {
+  height: 15rem;
+}
+
+.history {
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  overflow: auto;
+  z-index: 11;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 80, 87, 0.4);
+}
+
+.modal.open {
+  display: block;
+}
+
+.modal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 100%;
+}
+
+.modal-outer-close {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-wrapper {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.modal-head > h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #495057;
+}
+
+.modal-close {
+  cursor: pointer;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+
+.modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 16px;
+  padding: 32px 0 0;
+}
+
+.modal-footer.button-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.modal.modal-status .modal-container {
+  padding: 90px 20px;
+}
+
+.modal.modal-status .modal-wrapper {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.modal.modal-status .modal-body > img {
+  display: block;
+  margin: 0 auto 32px;
+}
+
+.modal.modal-status .modal-body > h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+}
+
+.modal.modal-status .modal-body > p {
+  margin: 8px 0 0;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #868E96;
+}
+
+.modal.modal-status .modal-body > p strong {
+  font-weight: 600;
+  color: #495057;
+}
+
+.modal.modal-status .modal-body > p.message {
+  margin: 32px 0;
+}
+
+.modal.modal-status .modal-body > .btn {
+  margin: 32px auto 0;
+}
+
+.modal.modal-status .modal-body .btn-approve {
+  margin: 32px auto 0;
+}
+
+.modal.modal-status .modal-body-traffic > h3 {
+  padding: 0 80px;
+}
+
+.modal.modal-user .modal-container {
+  padding: 45px 20px;
+}
+
+.modal.modal-user .modal-wrapper {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+}
+
+.modal-close-button.modal-close img {
+  width: 25px;
+}
