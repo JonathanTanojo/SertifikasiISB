@@ -108,6 +108,9 @@ To Start Back End
 ## ERD Diagaram
 ![ERD](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/erd/erd.png?token=GHSAT0AAAAAACMNBSDCGPF7EVEYNUP4KZAKZM2HQZA)
 
+## Class Diagaram
+![ERD](https://raw.githubusercontent.com/JonathanTanojo/SertifikasiISB/main/diagram/class.png?token=GHSAT0AAAAAACMNBSDDRPGIBPH6TO54KEGQZM2J7QQ)
+
 ## Unit Testing
 
 | Skenario | Ekpetasi  |
