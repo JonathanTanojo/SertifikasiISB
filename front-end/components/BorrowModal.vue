@@ -91,7 +91,7 @@ export default class BorrowModal extends Vue {
           <p><strong>Deskripsi Buku:</strong> {{ book.bookDescription }}</p>
 
 
-          <div  v-if="!returnBook">
+          <div  v-if="!returnBook" style="margin-top: 15px;">
             <b-form-select v-model="selectedUserId" @change="setUser()" class="mb-3">
               <b-form-select-option disabled>Please select Borrower Name</b-form-select-option>
               <b-form-select-option v-for="(user, idx) in users" :key="user.id" :value="user.id" >{{ user.userName }}</b-form-select-option>
