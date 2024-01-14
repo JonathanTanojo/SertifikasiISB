@@ -25,7 +25,7 @@ To Start Front End
   - Jika dari page **Home** akan mengampilkan dropdown untuk memilih siapa yang meminjam
   - Jika dari page **Dashboard** akan menghilangkan dropdown
 - History
-  - List pencatatan peminjaman yang berisikan nama peminjam, nama buku , tanggal       mengembalikan dan tanggal wajib mengembalikan
+  - List pencatatan peminjaman yang berisikan nama peminjam, nama buku , tanggal meminjam , tanggal mengembalikan dan tanggal wajib mengembalikan
 
 ## Back End
 - Spring Boot v3
