@@ -67,6 +67,10 @@ public class BookService {
 
           bookRequest.setBookBorrowed(0);
           mapper.updateBookFromRequest(book, bookRequest);
+
+          list = listRepository.findListId(bookRequest.getId());
+          list.setActualReturnDate(new java.util.Date());
+
           bookRepository.save(book);
 
         } catch (HttpClientErrorException e) {

@@ -58,6 +58,7 @@ export default class IndexPage extends Vue {
                   <th scope="col">Book Name</th>
                   <th scope="col">Member Name</th>
                   <th scope="col">Start Borrow</th>
+                  <th scope="col">Return Date</th>
                   <th scope="col">End Borrow</th>
                 </tr>
               </thead>
@@ -67,6 +68,7 @@ export default class IndexPage extends Vue {
                   <td>{{ list.book?.bookName }}</td>
                   <td>{{ list.user?.userName }}</td>
                   <td>{{ list.startDate }}</td>
+                  <td>{{ list.actualReturnDate }}</td>
                   <td>{{ list.endDate }}</td>
                 </tr>
               </tbody>

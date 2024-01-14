@@ -56,6 +56,7 @@ export default class BorrowModal extends Vue {
     list.bookId = book.id
     list.startDate = new Date()
     list.endDate = new Date(new Date().setDate(new Date().getDate() + 7))
+    list.actualReturnDate = undefined
 
 
     await ListModuleInstance.createHistory(list)

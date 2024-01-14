@@ -40,4 +40,7 @@ public class List {
   @Column(name = "end_date", nullable = false)
   private Date endDate;
 
+  @Column(name = "actual_return_date")
+  private Date actualReturnDate;
+
 }

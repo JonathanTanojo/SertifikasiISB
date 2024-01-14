@@ -9,4 +9,5 @@ export interface List {
   book?: Book
   startDate?: Date
   endDate?: Date
+  actualReturnDate?: Date
 }

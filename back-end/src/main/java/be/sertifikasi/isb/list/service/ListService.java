@@ -62,7 +62,7 @@ public class ListService {
     }
 
     public ResponseEntity<Response> createHistory(ListRequest listRequest) {
-        System.out.println("=== DEBUG === START readLists");
+        System.out.println("=== DEBUG === START createHistory");
         be.sertifikasi.isb.list.repository.List list = null;
         String validation = "Create";
         try{

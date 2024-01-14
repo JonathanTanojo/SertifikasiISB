@@ -23,6 +23,7 @@ public class ListController {
 
     @PostMapping
     public ResponseEntity<Response> createHistory(@RequestBody ListRequest listRequest) {
+        System.out.println(listRequest);
         return listService.createHistory(listRequest);
     }
 

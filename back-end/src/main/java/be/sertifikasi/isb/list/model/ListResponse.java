@@ -27,4 +27,7 @@ public class ListResponse {
 
     @JsonFormat(pattern = "dd MMM yyyy" , timezone = "Asia/Jakarta")
     private Date endDate;
+
+    @JsonFormat(pattern = "dd MMM yyyy" , timezone = "Asia/Jakarta")
+    private Date actualReturnDate;
 }

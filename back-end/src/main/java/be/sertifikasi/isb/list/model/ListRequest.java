@@ -18,4 +18,6 @@ public class ListRequest {
     private Date startDate;
 
     private Date endDate;
+
+    private Date actualReturnDate;
 }
